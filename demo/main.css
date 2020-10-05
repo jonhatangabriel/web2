@@ -1,0 +1,108 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+
+background-image: url("hcj.jpg") ;
+background-repeat: repeat;
+
+
+}
+
+#navegacion{
+    position: fixed;
+    top: 0;
+  
+    
+background-color: rgba(0, 0, 0, 0.60);
+    width: auto;
+   height: 29px;
+    margin: auto;
+}
+ul{
+    list-style:none;
+    
+}
+
+.menu li a{
+background-color:rgba(0, 0, 0, 0.60);
+color: white;
+width: 100px;
+padding: 5px 10px;
+display: block;
+text-decoration: none;
+text-align: center;
+}
+.menu >li{
+
+float: left;
+}
+.menu li >ul{
+   display: none;
+
+
+}
+.menu li>a:hover{
+
+background-color: rgba(160, 0, 61, 0.534);
+
+}
+.menu li:hover>ul {
+
+    display: block;
+}
+
+
+
+div{
+
+ background-color: rgba(0, 160, 160, 0.60);
+
+margin: 150px auto;
+width: 900px;
+text-align: center;
+line-height: 1.5em;
+
+}
+h1,h2,h3,h4{
+
+    margin: auto;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 30px 20px;
+font-size: 50px;
+
+}
+h2,h3,h4{
+
+    margin: 20px auto;
+    font-size: 30px;
+}
+img{
+
+margin: 30px auto;
+
+}
+p{
+background-color: rgba(160, 0, 61, 0.534);
+
+}
+blockquote{
+width: 400px;
+
+
+}
+blockquote h3{
+font-size: 16px;
+
+
+}
+blockquote a{
+
+   color: yellow; 
+}
